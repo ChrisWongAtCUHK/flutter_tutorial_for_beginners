@@ -6,6 +6,12 @@ void main() => runApp(MaterialApp(
           title: const Text('Flutter Tutorial for Beginners'),
           centerTitle: true,
         ),
-        body: const Text('hello ninjas!'),
+        body: const Center(
+          child: Text('hello ninjas!'),
+        ),
+        floatingActionButton: FloatingActionButton(
+          onPressed: () {},
+          child: const Text('Click'),
+        ),
       ),
     ));
