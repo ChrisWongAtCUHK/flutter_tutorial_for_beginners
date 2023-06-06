@@ -7,7 +7,16 @@ void main() => runApp(MaterialApp(
           centerTitle: true,
         ),
         body: const Center(
-          child: Text('hello ninjas!'),
+          child: Text(
+            'hello ninjas!',
+            style: TextStyle(
+              fontSize: 20.0,
+              fontWeight: FontWeight.bold,
+              letterSpacing: 2.0,
+              color: Colors.grey,
+              fontFamily: 'IndieFlower',
+            ),
+          ),
         ),
         floatingActionButton: FloatingActionButton(
           onPressed: () {},
