@@ -7,3 +7,4 @@
 ## [Flutter Tutorial for Beginners #6 - Colours & Fonts](https://www.youtube.com/watch?v=km2P_KQJyO0&list=PL4cUxeGkcC9jLYyp2Aoh6hcWuxFDX6PBJ&index=6)
 ### [Indie Flower - Google Fonts](https://fonts.google.com/specimen/Indie+Flower?preview.text=ooohbaby&preview.text_type=custom&query=indie)
 # [Flutter Tutorial for Beginners #7 - Stateless Widgets & Hot Reload](https://www.youtube.com/watch?v=zwPBMg3SHVU&list=PL4cUxeGkcC9jLYyp2Aoh6hcWuxFDX6PBJ&index=7)
+# [Flutter Tutorial for Beginners #8 - Images & Assets](https://www.youtube.com/watch?v=Hxh6nNHSUjo&list=PL4cUxeGkcC9jLYyp2Aoh6hcWuxFDX6PBJ&index=9)

@@ -14,17 +14,9 @@ class Home extends StatelessWidget {
         title: const Text('Flutter Tutorial for Beginners'),
         centerTitle: true,
       ),
-      body: const Center(
-        child: Text(
-          'hello ninjas!',
-          style: TextStyle(
-            fontSize: 20.0,
-            fontWeight: FontWeight.bold,
-            letterSpacing: 2.0,
-            color: Colors.grey,
-            fontFamily: 'IndieFlower',
-          ),
-        ),
+      body: Center(
+        child: Image.network(
+            'https://docs.flutter.dev/assets/images/dash/dash-fainting.gif'),
       ),
       floatingActionButton: FloatingActionButton(
         onPressed: () {},
