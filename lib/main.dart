@@ -15,8 +15,7 @@ class Home extends StatelessWidget {
         centerTitle: true,
       ),
       body: Center(
-        child: Image.network(
-            'https://docs.flutter.dev/assets/images/dash/dash-fainting.gif'),
+        child: Image.asset('assets/space-3.jpg'),
       ),
       floatingActionButton: FloatingActionButton(
         onPressed: () {},
