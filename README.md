@@ -6,3 +6,4 @@
 ## [Flutter Tutorial for Beginners #5 - Scaffold & AppBar Widgets](https://www.youtube.com/watch?v=C5lpPjoivaw&list=PL4cUxeGkcC9jLYyp2Aoh6hcWuxFDX6PBJ&index=5)
 ## [Flutter Tutorial for Beginners #6 - Colours & Fonts](https://www.youtube.com/watch?v=km2P_KQJyO0&list=PL4cUxeGkcC9jLYyp2Aoh6hcWuxFDX6PBJ&index=6)
 ### [Indie Flower - Google Fonts](https://fonts.google.com/specimen/Indie+Flower?preview.text=ooohbaby&preview.text_type=custom&query=indie)
+# [Flutter Tutorial for Beginners #7 - Stateless Widgets & Hot Reload](https://www.youtube.com/watch?v=zwPBMg3SHVU&list=PL4cUxeGkcC9jLYyp2Aoh6hcWuxFDX6PBJ&index=7)
