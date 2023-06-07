@@ -10,3 +10,10 @@
 # [Flutter Tutorial for Beginners #8 - Images & Assets](https://www.youtube.com/watch?v=Hxh6nNHSUjo&list=PL4cUxeGkcC9jLYyp2Aoh6hcWuxFDX6PBJ&index=9)
 
 # [SocketException: Connection failed (OS Error: Operation not permitted, errno = 1) with flutter app on macOS](https://stackoverflow.com/questions/65458903/socketexception-connection-failed-os-error-operation-not-permitted-errno-1)
+# Cookbook
+## Images
+### [Display images from the internet](https://docs.flutter.dev/cookbook/images/network-image)
+```
+Image.network(
+    'https://docs.flutter.dev/assets/images/dash/dash-fainting.gif');
+```
