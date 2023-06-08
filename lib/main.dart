@@ -14,11 +14,10 @@ class Home extends StatelessWidget {
         title: const Text('Flutter Tutorial for Beginners'),
         centerTitle: true,
       ),
-      body: const Center(
-        child: Icon(
-          Icons.airport_shuttle,
-          color: Colors.lightBlue,
-          size: 50.0,
+      body: Center(
+        child: ElevatedButton(
+          onPressed: () {},
+          child: const Text('click me'),
         ),
       ),
       floatingActionButton: FloatingActionButton(
