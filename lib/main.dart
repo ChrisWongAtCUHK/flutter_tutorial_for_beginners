@@ -15,7 +15,8 @@ class Home extends StatelessWidget {
         centerTitle: true,
       ),
       body: Row(
-        mainAxisAlignment: MainAxisAlignment.center,
+        mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+        crossAxisAlignment: CrossAxisAlignment.stretch,
         children: <Widget>[
           const Text('hello, world'),
           ElevatedButton(
