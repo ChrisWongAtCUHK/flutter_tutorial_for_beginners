@@ -14,14 +14,8 @@ class Home extends StatelessWidget {
         title: const Text('Flutter Tutorial for Beginners'),
         centerTitle: true,
       ),
-      body: Center(
-        child: IconButton(
-          onPressed: () {
-            print('you clicked me');
-          },
-          icon: const Icon(Icons.alternate_email),
-          color: Colors.amber,
-        ),
+      body: Container(
+        color: Colors.grey,
       ),
       floatingActionButton: FloatingActionButton(
         onPressed: () {},
