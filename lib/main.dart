@@ -14,11 +14,22 @@ class Home extends StatelessWidget {
         title: const Text('Flutter Tutorial for Beginners'),
         centerTitle: true,
       ),
-      body: Container(
-        padding: const EdgeInsets.fromLTRB(10.0, 20.0, 30.0, 40.0),
-        margin: const EdgeInsets.all(30.0),
-        color: Colors.grey,
-        child: const Text('hello'),
+      body: Row(
+        children: <Widget>[
+          const Text('hello, world'),
+          ElevatedButton(
+            onPressed: () {},
+            style: const ButtonStyle(
+              backgroundColor: MaterialStatePropertyAll<Color>(Colors.amber),
+            ),
+            child: const Text('click me'),
+          ),
+          Container(
+            color: Colors.cyan,
+            padding: const EdgeInsets.all(30.0),
+            child: const Text('inside container'),
+          ),
+        ],
       ),
       floatingActionButton: FloatingActionButton(
         onPressed: () {},
