@@ -16,10 +16,12 @@ class Home extends StatelessWidget {
       ),
       body: Row(
         children: <Widget>[
-          Container(
-            padding: const EdgeInsets.all(30.0),
-            color: Colors.cyan,
-            child: const Text('1'),
+          Expanded(
+            child: Container(
+              padding: const EdgeInsets.all(30.0),
+              color: Colors.cyan,
+              child: const Text('1'),
+            ),
           ),
           Container(
             padding: const EdgeInsets.all(30.0),
