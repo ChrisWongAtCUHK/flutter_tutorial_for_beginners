@@ -16,8 +16,9 @@ class Home extends StatelessWidget {
       ),
       body: Row(
         children: <Widget>[
+          Image.asset('assets/space-2.jpg'),
           Expanded(
-            flex: 3,
+            flex: 1,
             child: Container(
               padding: const EdgeInsets.all(30.0),
               color: Colors.cyan,
@@ -25,7 +26,7 @@ class Home extends StatelessWidget {
             ),
           ),
           Expanded(
-            flex: 2,
+            flex: 1,
             child: Container(
               padding: const EdgeInsets.all(30.0),
               color: Colors.pinkAccent,
