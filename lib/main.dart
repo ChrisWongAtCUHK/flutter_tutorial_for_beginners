@@ -23,15 +23,19 @@ class Home extends StatelessWidget {
               child: const Text('1'),
             ),
           ),
-          Container(
-            padding: const EdgeInsets.all(30.0),
-            color: Colors.pinkAccent,
-            child: const Text('3'),
+          Expanded(
+            child: Container(
+              padding: const EdgeInsets.all(30.0),
+              color: Colors.pinkAccent,
+              child: const Text('3'),
+            ),
           ),
-          Container(
-            padding: const EdgeInsets.all(30.0),
-            color: Colors.amber,
-            child: const Text('3'),
+          Expanded(
+            child: Container(
+              padding: const EdgeInsets.all(30.0),
+              color: Colors.amber,
+              child: const Text('3'),
+            ),
           ),
         ],
       ),
